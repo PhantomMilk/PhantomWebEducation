@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brandon Restrepo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/ico" href="./img/icon.ico"/>
+</head>
+
+<body>
+
+  <!-- comienza la barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/icon.ico" alt="imgBrandon" width="30" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">PhantomWebEducation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/Recomendaciones.html">Recomendaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/sobremi.html">Sobre Mi</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Problematicas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./pages/Pandemia.html">Pandemia</a></li><!--motivacion, depresión desercion-->
+              <li><a class="dropdown-item" href="./pages/Economico.html">Economicas</a></li>
+              <li><a class="dropdown-item" href="./pages/Gobierno.html">Gobierno</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Termina la barra de navegación -->
+
+  <!-- Comienza el carrusel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/d2.jpg" class="d-block w-100" height="500px">
+        <div class="carousel-caption d-none d-md-block bg-dark opacity-75">
+          <h5><cite>Nelsón Mandela:</cite></h5>
+          <cite>"La educación es el arma más poderosa que puedes usar para cambiar el Mundo"</cite>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/d3.jpg" class="d-block w-100" height="500px">
+        <div class="carousel-caption d-none d-md-block bg-dark opacity-75">
+          <h5><cite>Albert Einstein</cite></h5>
+          <cite>"Aprende de ayer, vive para hoy, ten esperanza en el mañana. Lo importante es no dejar de cuestionar. La curiosidad tiene sus propios motivos para existir."</cite>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/d4.jpg" class="d-block w-100" height="500px">
+        <div class="carousel-caption d-none d-md-block bg-dark opacity-75">
+          <h5><cite>Benito Juárez:</cite></h5>
+          <cite>"La educación es fundamental para la felicidad social; es el principio en el que descansan la libertad y el engrandecimiento de los pueblos"</cite>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- termina el carrusel -->
+
+  <!-- Comienza el footer -->
+  <div class="footer bg-dark p-2 text-light text-center">
+    Web Creada por Brandon Restrepo 2021 <span class="text-muted">- Colegio Alfonso López Michelsen</span>
+  </div>
+  <!-- termina el footer -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</html>
